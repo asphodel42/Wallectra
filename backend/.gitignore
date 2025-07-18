@@ -1,0 +1,34 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Secrets and environment variables
+.env
+*.env
+
+# Python package info
+*.egg-info/
+dist/
+build/
+
+# Alembic
+alembic/versions/
+
+# Logs
+logs/
+
+# Tests
+.coverage
+htmlcov/
+*.log
+
+# MySQL dumps
+*.sql
+*.db
+
+# IDE/OS специфічні
+.DS_Store
+*.swp
+.idea/
+.vscode/
