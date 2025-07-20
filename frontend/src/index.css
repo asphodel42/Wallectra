@@ -34,6 +34,7 @@
   --col-approve: #01aeb9;
   --col-warning: #d27357;
   --col-button: #000d19;
+  --col-button-border: #005663;
 }
 * {
   margin: 0;
