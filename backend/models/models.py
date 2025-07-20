@@ -44,6 +44,7 @@ class Transaction(Base):
     type = Column(Enum(TransactionType), nullable=False)
     amount = Column(Numeric(10, 2), nullable=False)
     description = Column(String(255))
-    created_at = Column(DateTime, default=datetime.now(datetime.timezone.utc))
+    created_at = Column(
+        DateTime, default=datetime.now(tz="UTC"), nullable=False)
 
     wallet = relationship("Wallet", back_populates="transactions")
